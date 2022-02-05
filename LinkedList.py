@@ -19,6 +19,17 @@ class LinkedList:
 		while current.next:
 			current = current.next
 		current.next = Node(data)
+		
+	def search(self,target):
+		current = sef.head
+		while current != None:
+			if current.data == target:
+				print('Element found!')
+				return True
+			current = current.next
+		print('Element Not Found in the list!')
+		return False
+	
 	def print_list(self):
 		node = self.head
 		while node is not None:
