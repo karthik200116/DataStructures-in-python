@@ -26,10 +26,10 @@ class LinkedList:
 			node = node.next
 
 			
-if __name__ = '__main__':
+if __name__ == '__main__':
 	linked_list = LinkedList()
 	linked_list.append_node('Monday')
 	linked_list.append_node('Tuesday')
-	linekd_list.print_list()
+	linked_list.print_list()
 
 """ Code written by Karthik V (https://github.com/karthik200116/) """
